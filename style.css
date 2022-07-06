@@ -1,0 +1,130 @@
+body{
+    background-color: aqua;
+}
+#title{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 2%;
+}
+#rule{
+    text-align: center;
+    font-family: cursive;
+ 
+}
+#rule1{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+#roll{
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+}
+
+#roll:disabled {
+  pointer-events: none;
+}
+
+#roll:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#roll:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#pl{
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+}
+
+#p3{
+    font-family: cursive;
+    font-size:x-large;
+    font-weight: bold;
+}
+#reset{
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    touch-action: manipulation;
+    width: 10%;
+    will-change: transform;
+
+}
+
+#reset:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+
+}
+
+#reset:active{
+    box-shadow: none;
+    transform: translateY(0);
+
+}
+
+#reset:disabled{
+    pointer-events: none;
+}
+
+#winner{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#border{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:300px;
+    position: relative;
+    left:600px;
+    top:-30px;
+    padding:15px;
+}
